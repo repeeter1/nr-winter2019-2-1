@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="process.php">
+      <div>
+       <label for="name">name</label><br>
+       <input type="text"id="name">
+      </div>
+      <div>
+
+        <label for="email">email</label><br>
+        <input type="email" name="email" id="email">
+      </div>
+      <div>
+          <label for="message">message</label><br>
+          <textarea name="message" id="message" col="50" rows="5" ></textarea>
+      </div>
+      <div>
+          <label for="sex">SEX</label>
+          <select name="sex" id="sex">
+              <option value="male">MAN</option>
+              <option value="male">VROUW</option>
+              <option value="male">OTHER</option>
+              
+          </select>
+      </div>
+      
+      <button type="submit">Verzenden</button>
+      <button type="reset">reset</button>
+      
+    </form>
+  </body>
+</html>
